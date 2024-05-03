@@ -11,7 +11,7 @@ class STaskAdd(BaseModel):
 class STask(STaskAdd):
     id: int
 
-    model_config = ConfigDict(from_attributes=True)
+    m#odel_config = ConfigDict(from_attributes=True)
 
 
 class STaskId(BaseModel):
